@@ -1,6 +1,14 @@
 # positional argument - more than one paramenter and argument
 # we should not change the order
 
+alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z','a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+position = alphabet.index("a")
+
+newpos = position - 5
+print (newpos)
+print (alphabet[newpos])
+
 def greet(name, location):
     print (f"Hello {name}")
     print (f"Good Morning")
